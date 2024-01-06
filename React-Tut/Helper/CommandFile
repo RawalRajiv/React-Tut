@@ -1,0 +1,37 @@
+To create React App with Vite 
+    Command: npm create vite@latest
+
+followed by prompt 
+
+How to navigate to the created react project 
+    Command: cd <project or folder name>
+
+How to install  npm package 
+    Command: npm install or npm i 
+
+How to run the React Vite Project 
+    Command: npm run dev
+    
+Install Tailwind CSS
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+
+Configure your template paths
+    Add the paths to all of your template files in your tailwind.config.js file.
+    /** @type {import('tailwindcss').Config} */
+        export default {
+            content: [
+                "./index.html",
+                "./src/**/*.{js,ts,jsx,tsx}",
+            ],
+            theme: {
+                extend: {},
+            },
+            plugins: [],
+        }
+
+Add the Tailwind directives to your CSS
+    Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
