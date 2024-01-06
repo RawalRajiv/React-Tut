@@ -10,7 +10,7 @@ function useCurrencyInfo(fromCurrency) {
         .then((apiResponseData) => setCurrencyData(apiResponseData[fromCurrency]))
         
     }, [fromCurrency]) //useEffect
-    console.log(CurrencyData);
+    //console.log(CurrencyData);
     return CurrencyData;
 }
 
