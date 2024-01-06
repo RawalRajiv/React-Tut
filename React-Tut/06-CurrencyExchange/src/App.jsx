@@ -46,7 +46,7 @@ function App() {
                             amount={fromAmount}
                             currencyOptions={ccyOptions}
                             selectedCurrency={fromCCY}
-                            onCurrencyChange={(currency) => setFromAmount(fromAmount)}
+                            onCurrencyChange={(currency) => setFromCCY(currency)}
                             onTextChange={(fromAmount) => setFromAmount(fromAmount)}
                         />
                     </div>
@@ -65,7 +65,7 @@ function App() {
                             amount={toAmount}
                             currencyOptions={ccyOptions}
                             selectedCurrency={toCCY}
-                            onCurrencyChange={(currency) => setToAmount(currency)}
+                            onCurrencyChange={(currency) => setToCCY(currency)}
                             amountDisable
                         />
                     </div>
