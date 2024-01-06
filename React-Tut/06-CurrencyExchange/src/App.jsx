@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+//import './App.css'
 import InputBox from './components/InputBox'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 
@@ -15,8 +15,8 @@ function App() {
   const ccyOptions = Object.keys(currencyData)
 
   const swap = () => {
-   setFromAmount(toAmount)
-   setToAmount(fromAmount)
+   //setFromAmount(toAmount)
+   //setToAmount(fromAmount)
    setFromCCY(toCCY)
    setToCCY(fromCCY)  
   }
@@ -56,7 +56,7 @@ function App() {
                             className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
                             onClick={swap}
                         >
-                            swap
+                            Swap Currency
                         </button>
                     </div>
                     <div className="w-full mt-1 mb-4">
