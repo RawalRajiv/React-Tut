@@ -1,0 +1,14 @@
+To create React App with Vite 
+    Command: npm create vite@latest
+
+followed by prompt 
+
+How to navigate to the created react project 
+    Command: cd <project or folder name>
+
+How to install  npm package 
+    Command: npm install or npm i 
+
+How to run the React Vite Project 
+    Command: npm run dev
+    
